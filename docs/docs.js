@@ -7,7 +7,7 @@ const fs = require('fs');
 let usersd = []; // ประกาศตัวแปร usersd โดยใช้ let
 
 // อ่านไฟล์ JSON
-fs.readFile('ข้อมูลหลักสูตรปวส.json', 'utf8', (err, data) => {
+fs.readFile('../ข้อมูลหลักสูตรปวส.json', 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading the file:', err);
     return;
